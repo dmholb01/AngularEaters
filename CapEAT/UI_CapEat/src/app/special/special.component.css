@@ -1,16 +1,23 @@
-.main{
-    background: black;
-    text-align: -webkit-center;
-    font-size: 16px;
-    color: blueviolet;
+h3 {
+    margin: 0 0 10px;
+  }
+  
+  pre {
+    background-color: white;
+    padding: 15px;
+  }
+
+  .container-fluid {
+    background-color: #7395AE;
+    margin-top: -20px;
+    
+
 }
 
-.header{
-    font-size: -webkit-xxx-large;
-    color: blue;
+.specialHeader {
+    text-align: center;
+    color: white;
 }
 
-.img_class {
-    width:260px;
-    height:250px;
-}
+
+
