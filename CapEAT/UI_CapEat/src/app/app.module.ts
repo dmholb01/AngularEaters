@@ -36,6 +36,8 @@ import { CalendarModule } from 'angular-calendar';
 import { CommonModule } from '@angular/common';
 import { NgbModalModule } from '@ng-bootstrap/ng-bootstrap';
 import { DemoUtilsModule } from './calendarutils/module';
+import { AboutComponent } from './about/about.component';
+import { CharityComponent } from './charity/charity.component';
 
 
 
@@ -70,7 +72,9 @@ import { DemoUtilsModule } from './calendarutils/module';
     NutritionComponent,
     ThankyouComponent,
     LunchComponent,
-    BreakfastComponent
+    BreakfastComponent,
+    AboutComponent,
+    CharityComponent
   ],
   providers: [
     MenuService,

@@ -1,0 +1,57 @@
+
+
+.img_class {
+    width:260px;
+    height:250px;
+}
+
+.chefHeader {
+    text-align: center;
+    color: #3b5466;
+ 
+   
+}
+
+.subheader {
+    text-align: center;
+    color: #3b5466;
+   
+}
+
+.body {
+    background-color: #7395AE;
+}
+
+#breakfastMenu {
+    margin: auto;
+    display: block;
+    width: 400px;
+    max-width: 100%;
+    height: auto;
+}
+
+#lunchMenu {
+    margin: auto;
+    display: block;
+    width: 400px;
+    max-width: 100%;
+    height: auto;
+}
+
+.container {
+    width: 750px;
+    height: 600px;
+   
+
+ }
+
+ .image:hover {
+    opacity: 0.3;
+ }
+
+ .pic{
+    height: 300px;
+    width: 350px;
+    margin-left: 540px;
+    margin-top: 50px;
+ }
