@@ -32,6 +32,10 @@ import { BreakfastComponent } from './Menu/breakfast.component';
 import { LunchService } from './Services/lunch.service';
 import { BreakfastService } from './Services/breakfast.service';
 import {PaymentService} from './Services/payments.service';
+import { CalendarModule } from 'angular-calendar';
+import { CommonModule } from '@angular/common';
+import { NgbModalModule } from '@ng-bootstrap/ng-bootstrap';
+import { DemoUtilsModule } from './calendarutils/module';
 
 
 
@@ -42,7 +46,10 @@ import {PaymentService} from './Services/payments.service';
     NgbModule.forRoot(),
     HttpClientModule,
     RouterModule.forRoot(appRoutes, {useHash: true }),
-    FormsModule
+    FormsModule,
+    CommonModule,
+    CalendarModule.forRoot(),
+    DemoUtilsModule
 
   ],
   declarations: [
@@ -80,4 +87,3 @@ import {PaymentService} from './Services/payments.service';
   bootstrap: [AppComponent]
 })
 export class AppModule { }
-
