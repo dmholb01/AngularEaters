@@ -10,8 +10,7 @@ import { RouterModule }   from '@angular/router';
 export class SpecialComponent implements OnInit {
   title = 'special';
 
- 
-  constructor() {
+ constructor() {
 
 
   }
